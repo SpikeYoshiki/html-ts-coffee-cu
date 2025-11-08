@@ -1,0 +1,14 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true // <-- 非常重要：阻止 tsc 生成 .js 文件
+  },
+  "include": ["**/*.ts"] // 确保包含了您项目中的所有ts文件
+}
