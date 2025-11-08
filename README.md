@@ -10,8 +10,8 @@
     - Withdraw        ✅
     - Typescript      ✅
 
-    1.How to open the vite?
+    - 1.How to open the vite?
     pnpm tsc index-ts.ts(turn the ts to js)
     pnpm add vite(the first time to run )
     pnpm vite(open the  serve)
-    2.anvil --load-state fundme-anvil.json (open the anvil serve)
+    - 2.anvil --load-state fundme-anvil.json (open the anvil serve)
